@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+## React.js spoonacular Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built by following Tech With Tim's **"Learn React With This ONE Project"** using a different API and topic to practice my understanding.
+(uploaded November 24, 2024)
 
-## Available Scripts
+Watch the video [HERE](https://www.youtube.com/watch?v=G6D9cBaLViA&ab_channel=TechWithTim)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## spoonacular Recipe App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a recipe search API web app built as a follow-up from Tech With Tim's YouTube course. The project was developed using **React.js** and the **spoonacular API**. The UI is styled with same **Custom CSS** from my movie-api-app. This project was done in order to code and understand the **React.js** concepts that I wasn't fully sure and confident on.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app allows users to search for recipes via the spoonacular API. Similar to the movie-api-app I built following along, the styles and layout are exactly the same but uses a different API. Everytime the user reloads the page, it displays 20 different popular recipes. You can heart recipes to add them to your favorites list. In addition to these base features, I added a feature of clicking into recipes for exact details (preparation duration, ingredients, description of recipe, procedural steps) of the recipe. 
 
-### `npm run build`
+### Features
+- **Recipe Search** 
+- **Popular Recipes**
+- Each recipe displays:
+  - Poster
+  - Title
+  - Ready In Minutes Value
+- **Loading...** text
+-  Responsive layout with **Custom CSS**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React.js**
+- **Custom CSS**
+- **spoonacular API**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Concepts Learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+<summary>Click to view concepts</summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Custom CSS setup 
+- React hooks:  
+  - `useState`  
+  - `useEffect`  
+- Working with third-party APIs (spoonacular)  
+- Routing for different tabs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+</details>
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is deployed on **Vercel**. You can visit the live site [here](https://tailwindcss-nike-project.vercel.app/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+1. Clone the repo  
+```bash
+git clone https://github.com/TomChimorin/recipe-api-web-app.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Navigate to the project directory 
+  ```bash
+   cd recipe-web-app
+  ```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Install dependencies
+  ```bash
+   npm install
+  ```
+4. Run the development server
+  ```bash
+   npm run dev
+  ```
+5. Open the deployed app in your browser at: https://tailwindcss-nike-project.vercel.app/
