@@ -55,7 +55,7 @@ This app allows users to search for recipes via the spoonacular API. Similar to 
 
 ## Deployment
 
-This project is deployed on **Vercel**. You can visit the live site [here](https://tailwindcss-nike-project.vercel.app/).
+This project is deployed on **Vercel**. You can visit the live site [here](https://recipe-api-web-app-s4fp.vercel.app/).
 
 ---
 
@@ -79,4 +79,4 @@ git clone https://github.com/TomChimorin/recipe-api-web-app.git
   ```bash
    npm run dev
   ```
-5. Open the deployed app in your browser at: https://tailwindcss-nike-project.vercel.app/
+5. Open the deployed app in your browser at: https://recipe-api-web-app-s4fp.vercel.app/
