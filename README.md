@@ -9,7 +9,7 @@ Watch the video [HERE](https://www.youtube.com/watch?v=G6D9cBaLViA&ab_channel=Te
 
 ## spoonacular Recipe App
 
-This is a recipe search API web app built as a follow-up from Tech With Tim's YouTube course. The project was developed using **React.js** and the **spoonacular API**. The UI is styled with same **Custom CSS** from my movie-api-app. This project was done in order to code and understand the **React.js** concepts that I wasn't fully sure and confident on.
+This is a recipe search API web app built as a follow-up from Tech With Tim's YouTube course. The project was developed using **React.js** and the [**spoonacular API**](https://spoonacular.com/food-api). The UI is styled with same **Custom CSS** from my movie-api-app. This project was done in order to code and understand the **React.js** concepts that I wasn't fully sure and confident on.
 
 ---
 
